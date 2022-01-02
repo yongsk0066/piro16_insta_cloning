@@ -92,7 +92,7 @@ main > div:nth-child(odd){
 /* content */
 .content__container {
   display: grid;
-  grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3px;
 }
 
@@ -100,6 +100,8 @@ main > div:nth-child(odd){
   width: 100%;
   height: 100%;
   object-fit: cover;
+  aspect-ratio: 1/1;
+
 }
 
 /* footer */

@@ -87,12 +87,14 @@ main > div:nth-child(odd){
   border-radius: 50%;
   border: var(--main-border);
   padding:3px;
+  aspect-ratio: 1/1;
+
 }
 
 /* content */
 .content__container {
   display: grid;
-  grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3px;
 }
 
